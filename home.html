@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221201192851">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<div class="page__text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum accusantium corporis ab quibusdam
+					enim quis ad voluptatem beatae nobis necessitatibus?
+				</div>
+				<div class="page__image"><picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpeg" alt=""></picture></div>
+				<select name="form[]" data-class-modif="form">
+					<option value="1" selected>Item 1</option>
+					<option value="2">Item 2</option>
+					<option value="3">Item 3</option>
+					<option value="4">Item 4</option>
+					<option value="4">Item 5</option>
+				</select>
+				<div data-quantity class="quantity">
+					<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+					<div class="quantity__input">
+						<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+					</div>
+					<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+				</div>
+				<div class="options">
+					<div class="options__item">
+						<input id="o_1" class="options__input" checked type="radio" value="1" name="option">
+						<label for="o_1" class="options__label"><span class="options__text">item 1</span></label>
+					</div>
+					<div class="options__item">
+						<input id="o_2" class="options__input" type="radio" value="2" name="option">
+						<label for="o_2" class="options__label"><span class="options__text">item 2</span></label>
+					</div>
+				</div>
+				<button type="submit" class="button">Send</button>
+
+
+
+
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20221201192851"></script>
+</body>
+
+</html>
